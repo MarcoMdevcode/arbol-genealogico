@@ -181,7 +181,7 @@ a{
 	transition: 1s;
 }
 aside{
-	height: 52%;
+	height: 52vh;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
 	bottom:0;
