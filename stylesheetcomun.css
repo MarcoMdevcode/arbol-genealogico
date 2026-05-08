@@ -1,0 +1,357 @@
+body{
+	background-color: #000;
+	--background-image: url("fondo.jpg");--
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+	/*text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;*/
+/*text-shadow le pone bordes al texto en el color deseado*/
+.saludo{
+	
+	background: rgba(34, 33, 33, 0.973);
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+	width: 85%;
+	margin-bottom: 10px;
+}
+.fotoprincipal{
+	height: 200px;
+	border-radius: 100px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 10px  10px 10px rgb(52, 115, 119);
+	transition: 0.4s;
+}
+.fotoprincipal:hover{
+	transition: 0.4s;
+	transform: scale(1.9);
+}
+.fotos{
+	height: 200px;
+	border-radius: 25px;
+	margin-left: 15px;
+}
+.apellidoprincipal{
+	color:blue
+}
+section {
+    background: rgba(34, 33, 33, 0.973);
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+	width: 85%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+	
+}
+h1{
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+	margin-left: 0%;
+	font-size: 20px;
+}
+h2{
+	color: rgb(107, 107, 177);
+	text-align: center;
+	font-size: 20px;
+	padding-top: 0px;
+}
+h3{
+	padding-left: 20px;
+	color: white;
+}
+hr{
+	color: #000;
+}
+p{
+	text-align: justify;
+	color: white;
+	font-size: 17px;
+	margin: 5%;
+/*la medida del width en % hará que tenga el tamaño del 10% del contenedor del párrafo*/
+	width: 90%;
+	
+}
+.listonluto{
+	height: 40px;
+	padding-left: 20px;
+}
+.piedefoto{
+	color: white;
+	font-size: 15px;
+	margin: 5px;
+	padding-left: 20px;
+}
+.piedepagina{
+	text-align: center;
+	border-radius: 20px;
+	width: 70%;
+    margin-top: 50px;
+	background: #999;
+	font-size: 15px;
+}
+a{
+	color: orange;
+}
+.enlace{
+	position: relative;
+	padding: 15px 35px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 1;
+	transition: color 0.5s;
+}
+.enlace{
+	cursor: pointer;
+	z-index: 1;
+	transition: color 0.5s;
+}
+.enlace::before{
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background: rgb(52, 115, 119);
+	border-radius: 100px;
+	clip-path: circle(0% at 50% 50%);
+	transition: clip-path 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+.enlace:Hover::before{
+	clip-path: circle(100% at 50% 50%);
+}
+.enlace:Hover{
+	color: black;
+}
+.contacto{
+	width: 85%;
+	margin: 1%;
+	align-items: center;
+	background: rgba(34, 33, 33, 0.973);
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+	display: flex;
+}
+.desarrollador{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.was{
+	background-color: green;
+	border-radius: 100%;
+	height: 30px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-left: 5px;
+	border: 1px solid white;
+	margin-right: 2px;
+	margin-left: 2px;
+	transition: 1s;
+}
+.was:hover {
+	filter: drop-shadow(3px 2px 1px white);
+	transform: rotateY(360deg);
+	transition: 1s;
+}
+.correocontacto{
+	background-color: red;
+	border-radius: 100%;
+	margin-left: 10px;
+	height: 30px;
+	cursor: pointer;
+	border: 1px solid white;
+	transition: 1s;
+}
+.correocontacto:hover{
+	filter: drop-shadow(3px 2px 1px white);
+	transform: rotateY(360deg);
+	transition: 1s;
+}
+.redgithub{
+	border-radius: 50%;
+	cursor: pointer;
+	height: 30px;
+	margin-left: 10px;
+	transition: 1s;
+	border: 1px solid white;
+}
+.redgithub:hover{
+	filter: drop-shadow(3px 2px 1px white);
+	transform: rotateY(360deg);
+	transition: 1s;
+}
+aside{
+	height: 52%;
+	background: rgba(34, 33, 33, 0.973);
+	position: fixed;
+	bottom:0;
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+	margin-top: 50%;
+	margin-left: 70%;
+	margin-bottom: 20%;
+	right: -130px;
+	transition: 3s;
+}
+aside:hover{
+	right: 0;
+	transition: 0.3s;
+}
+aside p{
+	margin-left: 33px;
+}
+.navmaria{
+	height: 510px;
+	background: rgba(34, 33, 33, 0.973);
+	position: fixed;
+	bottom:0;
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+	margin-top: 40%;
+	margin-left: 70%;
+	margin-bottom: 7%;
+}
+.navmaria~hr {
+	color: blue;
+}
+.navbar{
+	text-align: left;
+	width: 10rem;
+
+}
+.flechas{
+	height: 15px;
+}
+.piedefoto{
+	color: white;
+}
+.fotos{
+	flex: 0 0 6em;
+	height: 5em;
+	font-size: 3rem;
+	border-radius: .4em;
+	text-align: center;
+	align-content: center;
+	transition: 0.4s;
+}
+.fotos:hover{
+	transition: 0.4s;
+	transform: scale(1.6);
+}
+.carrousel1{
+	margin-top: 0px;
+	margin-left: 2%;
+	width: 95%;
+	height: 400px;
+	overflow-x: auto;
+	position: relative;
+	display:flex;
+	box-shadow: none;
+	margin-bottom: 0px;
+}
+.carrousel1::-webkit-scrollbar{
+	display: none;
+}
+.carrousel1-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	animation: spin 120s infinite linear;
+}
+.carrousel1-slide img{
+	width: 10%;
+	flex-shrink: 0;
+}
+.carrousel2{
+	margin-top: 0px;
+	margin-left: 2%;
+	margin-bottom: 0px;
+	width: 95%;
+	overflow-x: auto;
+	position: relative;
+	display:flex;
+	height: 400px;
+	box-shadow: none;
+}
+.carrousel2::-webkit-scrollbar{
+	display: none;
+}
+.carrousel2-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	animation: spin 150s infinite linear;
+}
+.carrousel2-slide img{
+	width: 10%;
+	flex-shrink: 0;
+}
+.carrousel3{
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-bottom: 3px;
+	width: 95%;
+	overflow-x: auto;
+	position: relative;
+	display:flex;
+	height: 400px;
+	box-shadow: none;
+}
+.carrousel3::-webkit-scrollbar{
+	display: none;
+}
+.carrousel3-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	animation: spin 120s infinite linear;
+}
+.carrousel3-slide img{
+	width: 10%;
+	flex-shrink: 0;
+}
+.logo{
+	height: 55px;
+	border-radius: 100px;
+	margin-left: 1px;
+	margin-right: 50px;
+	border: 1px solid white;
+}
+.elusuario{
+	display: table-row-group;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.pusuario{
+	width: 19%;
+	font-size:0.8em;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.pcopy{
+	font-size:0.8em;
+	width: 12%;
+	margin-left: 10px;
+}
+.redes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@keyframes spin{
+	from{translate:0}
+	to{translate:-100%}
+}
+
+
+
+
+
