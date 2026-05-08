@@ -190,6 +190,7 @@ aside{
 	border-radius: 20px;
 	margin-top: 1px;
 	right: -170px;
+	item-align: center;
 	transition: 2s;
 }
 aside:hover{
