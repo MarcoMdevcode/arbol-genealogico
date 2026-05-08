@@ -189,7 +189,7 @@ aside{
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
 	
-	right: -200px;
+	right: -300px;
 	transition: 2s;
 }
 aside:hover{
