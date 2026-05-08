@@ -189,7 +189,6 @@ aside{
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
 	margin-top: 1px;
-	justify-content: center;
 	right: -170px;
 	transition: 2s;
 }
@@ -215,7 +214,7 @@ aside p{
 	color: blue;
 }
 .navbar{
-	text-align: left;
+	text-align: center;
 	width: 10rem;
 
 }
