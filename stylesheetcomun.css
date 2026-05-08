@@ -181,15 +181,15 @@ a{
 	transition: 1s;
 }
 aside{
-	height: 52vh;
+	height: 10vh;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
 	bottom:0;
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
-	
+	display: flex;
 	right: -130px;
-	transition: 3s;
+	transition: 2s;
 }
 aside:hover{
 	right: 0;
