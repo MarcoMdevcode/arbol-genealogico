@@ -216,7 +216,7 @@ aside p{
 .navbar{
 	text-align: center;
 	width: 10rem;
-
+	justify-content: center;
 }
 .flechas{
 	height: 15px;
