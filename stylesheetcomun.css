@@ -182,13 +182,13 @@ a{
 }
 aside{
 	height: 10vh;
-	width: 100px;
+	width: 200px;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
 	bottom:0;
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
-	display: flex;
+	
 	right: -130px;
 	transition: 2s;
 }
