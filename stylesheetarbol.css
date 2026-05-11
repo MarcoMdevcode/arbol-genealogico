@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+	font-family: sans-serif;
+}
+.saludo2{
+	border: 1px solid white;
+	width: 94%;
+	text-align: justify;
+	display: block;
+	padding: 1%;
+	margin-left: 1%;
+}
+
+.arbol{
+	width: 90%;
+	display: block;
+	margin: auto;
+	border-radius: 5%;
+}
+.arbolgenealogico{
+	border: 1px solid white;
+	width: 95%;
+	display: block;
+	margin: 1%;
+	border-radius: 5%;
+}
+.piedepagina2{
+	display: grid;
+	border: 1px solid white;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1px;
+}
+.primerenlace{
+	
+	color: white;
+	position: relative;
+	padding: 3%;
+	cursor: pointer;
+	z-index: 1;
+	transition: color 0.5s;
+}
+.primerenlace::before{
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background: black;
+	border-radius: 100px;
+	clip-path: circle(0% at 50% 50%);
+	transition: clip-path 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+.primerenlace:Hover::before{
+	clip-path: circle(100% at 50% 50%);
+}
+.primerenlace:Hover{
+	color: orange;
+}
+.comienzo{
+	margin-top: 1px;
+	color: blue;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.contacto2{
+	border: 1px solid white;
+	display:grid;
+	width: 80%;
+	margin-left: 10%;
+	padding: 1%;
+	background: rgba(34, 33, 33, 0.973);
+	box-shadow: 20px  15px 20px rgb(52, 115, 119);
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
