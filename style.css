@@ -87,9 +87,10 @@ button{
 	outline: none;
 }
 .botonabandonar{
-	width: 90%;
+	width: 50%;
+	height: 30%;
 	background: #0ef;
-	margin: 2%;
+	margin: 20px;
 	position: relative;
 	margin-left: 25%;
 	transition: 0.1s;
