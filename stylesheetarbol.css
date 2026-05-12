@@ -71,6 +71,7 @@ body{
 	display:grid;
 	width: 80%;
 	margin-left: 10%;
+	margin-bottom: 5%;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
