@@ -183,11 +183,11 @@ aside{
 	display: grid;
 	border: 1px solid white;
 	height: 350px;
-	max-width: 245px;
+	max-width: 250px;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
-	left: 34%;
+	left: 30%;
 	right: 25%;
 	Top:0;
 	border-radius: 20px;
