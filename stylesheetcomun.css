@@ -12,7 +12,7 @@ body{
 	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
 	width: 85%;
-	margin-bottom: 5%;
+	margin-bottom: 4%;
 }
 .fotoprincipal{
 	height: 200px;
@@ -41,7 +41,7 @@ section {
 	border: 1px solid white;
 	width: 85%;
     margin-top: 4%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 	margin-left: 2%;
 	padding: 1%;
 }
@@ -184,21 +184,32 @@ a{
 aside{
 	display: grid;
 	border: 1px solid white;
-	height: 62%;
-	width: 190px;
+	height: 350px;
+	max-width: 42%;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
+	left: 29%;
+	right: 29%;
 	Top:0;
-	box-shadow: 20px  15px 20px rgb(52, 115, 119);
 	border-radius: 20px;
+	top: -350px;
 	
-	right: -170px;
 	transition: 4s;
 	
 }
+.navbar{
+	height: 100%;
+	
+}
+.flechas{
+	height: 1.5%;
+	transform: rotate(-90deg);
+	margin-left: 45%;
+	top: 30px;
+}
 aside:hover{
-	right: 0;
+	top: 0;
 	transition: 0.3s;
 }
 aside p{
@@ -217,13 +228,7 @@ aside p{
 .navmaria~hr {
 	color: blue;
 }
-.navbar{
-	width: 90%;
-	margin-left: 10%;
-}
-.flechas{
-	height: 15px;
-}
+
 .piedefoto{
 	color: white;
 }
