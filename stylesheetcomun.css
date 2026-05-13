@@ -214,7 +214,7 @@ aside p{
 .navmaria1{
 	display: grid;
 	border: 1px solid white;
-	height: 350px;
+	height: 335px;
 	max-width: 180px;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
@@ -223,13 +223,13 @@ aside p{
 	right: 25%;
 	Top:0;
 	border-radius: 20px;
-	top: -350px;
+	top: -335px;
 	transition: 4s;
 }
 .navmaria2{
 	display: grid;
 	border: 1px solid white;
-	height: 280px;
+	height: 265px;
 	max-width: 180px;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
@@ -238,7 +238,7 @@ aside p{
 	right: 5%;
 	Top:0;
 	border-radius: 20px;
-	top: -280px;
+	top: -265px;
 	transition: 4s;
 }
 .navmaria~hr {
