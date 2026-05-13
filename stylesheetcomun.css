@@ -212,7 +212,7 @@ aside p{
 	margin-left: 33px;
 }
 .navmaria{
-display: grid;
+	display: grid;
 	border: 1px solid white;
 	height: 550px;
 	max-width: 240px;
