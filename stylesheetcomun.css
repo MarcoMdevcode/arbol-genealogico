@@ -196,7 +196,7 @@ aside{
 }
 .navbar{
 	height: 100%;
-	
+	border: 1px solid white;
 }
 .flechas{
 	height: 1.5%;
