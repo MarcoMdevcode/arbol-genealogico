@@ -225,13 +225,12 @@ aside p{
 }
 .navmaria1{
 	display: grid;
-	border: 1px solid white;
-	height: 335px;
+	height: 340px;
 	max-width: 180px;
 	padding: 1%;
 	background: rgba(34, 33, 33, 0.973);
 	position: fixed;
-	left: 5%;
+	left: 2%;
 	right: 25%;
 	Top:0;
 	border-radius: 20px;
@@ -240,7 +239,6 @@ aside p{
 }
 .navmaria2{
 	display: grid;
-	border: 1px solid white;
 	height: 265px;
 	max-width: 180px;
 	padding: 1%;
@@ -253,10 +251,6 @@ aside p{
 	top: -265px;
 	transition: 4s;
 }
-.navmaria~hr {
-	color: blue;
-}
-
 .piedefoto{
 	color: white;
 }
