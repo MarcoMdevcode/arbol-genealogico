@@ -13,6 +13,7 @@ body{
 }
 .wrapper{
 	position: relative;
+	margin-top: 10%;
 	max-width: 70%;
 	height: 10%;
 	background: #000;
