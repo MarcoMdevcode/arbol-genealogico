@@ -200,11 +200,9 @@ aside{
 }
 .navbarmaria1{
 	height: 100%;
-	border: 1px solid white;
 }
 .navbarmaria2{
 	height: 100%;
-	border: 1px solid white;
 }
 .flechas{
 	height: 1.5%;
@@ -236,6 +234,7 @@ aside p{
 	border-radius: 20px;
 	top: -335px;
 	transition: 4s;
+	border: 1px solid white;
 }
 .navmaria2{
 	display: grid;
@@ -250,6 +249,7 @@ aside p{
 	border-radius: 20px;
 	top: -265px;
 	transition: 4s;
+	border: 1px solid white;
 }
 .piedefoto{
 	color: white;
