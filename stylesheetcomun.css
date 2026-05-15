@@ -214,7 +214,7 @@ aside{
 }
 aside:hover{
 	top: 0;
-	transition: 2s;
+	transition: 3s;
 }
 aside p{
 	margin-left: 33px;
