@@ -290,7 +290,7 @@ aside p{
 	animation: spin 120s infinite linear;
 }
 .carrousel1-slide img{
-	width: 10%;
+	width: Auto;
 	flex-shrink: 0;
 }
 .carrousel2{
@@ -316,7 +316,7 @@ aside p{
 	animation: spin 150s infinite linear;
 }
 .carrousel2-slide img{
-	width: 10%;
+	width: Auto;
 	flex-shrink: 0;
 }
 .carrousel3{
@@ -342,7 +342,7 @@ aside p{
 	animation: spin 120s infinite linear;
 }
 .carrousel3-slide img{
-	width: 10%;
+	width: Auto;
 	flex-shrink: 0;
 }
 .pcopy{
