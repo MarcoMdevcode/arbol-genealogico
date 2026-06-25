@@ -376,8 +376,8 @@ aside p{
 	to{translate:-100%}
 }
 @keyframes pulse{
-	from{scale:0}
-	to{scale:1.5}
+	from{scale:1}
+	to{scale:1.2}
 }
 
 
