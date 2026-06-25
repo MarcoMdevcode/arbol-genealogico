@@ -147,6 +147,7 @@ a{
 	margin-right: 2px;
 	margin-left: 2px;
 	transition: 1s;
+	animation: pulse 1s infinite linear;
 }
 .was:hover {
 	filter: drop-shadow(3px 2px 1px white);
@@ -374,7 +375,10 @@ aside p{
 	from{translate:0}
 	to{translate:-100%}
 }
-
+@keyframes pulse{
+	from{scale:0}
+	to{scale:1.5}
+}
 
 
 
