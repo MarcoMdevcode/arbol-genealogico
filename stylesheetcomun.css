@@ -162,7 +162,7 @@ a{
 	cursor: pointer;
 	border: 1px solid white;
 	transition: 1.1s;
-	animation: pulse 1s infinite linear;
+	animation: pulse 1.2s infinite linear;
 }
 .correocontacto:hover{
 	filter: drop-shadow(3px 2px 1px white);
@@ -176,7 +176,7 @@ a{
 	margin-left: 10px;
 	transition: 1s;
 	border: 1px solid white;
-	animation: pulse 1.2s infinite linear;
+	animation: pulse 1.3s infinite linear;
 }
 .redgithub:hover{
 	filter: drop-shadow(3px 2px 1px white);
