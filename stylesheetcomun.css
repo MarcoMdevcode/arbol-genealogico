@@ -382,7 +382,7 @@ aside p{
 	to{scale:1.2}
 }
 .manita{
-	height: 60%;
+	height: 10px;
 	position: absolute;
 	z-index: 2;
 }
