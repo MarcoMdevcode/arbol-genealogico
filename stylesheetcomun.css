@@ -389,7 +389,7 @@ aside p{
 }
 @keyframes clicking{
 	
-	25%{translateY:-5px}
+	0%{translateY:-5px}
 	50%{translateX:-50px}
 	75%{translateX:50px}
 	100%{translateX:50px}
