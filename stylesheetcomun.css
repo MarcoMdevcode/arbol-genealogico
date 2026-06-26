@@ -389,8 +389,8 @@ aside p{
 }
 @keyframes clicking{
 	25%{transform: translateX(30px)}
-	75%{transform: translateX(30px)}
-	100%{transform: translateX(30px)}
+	75%{transform: translateX(60px)}
+	100%{transform: translateX(90px)}
 }
 
 
