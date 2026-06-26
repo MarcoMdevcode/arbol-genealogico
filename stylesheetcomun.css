@@ -383,7 +383,7 @@ aside p{
 }
 .manita{
 	height: 30px;
-	position: flexible;
+	position: relative;
 	z-index: 2;
 	animation: clicking 2s infinite linear;
 }
