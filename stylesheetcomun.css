@@ -392,7 +392,7 @@ aside p{
 	25%{transform: translateY(5px)}
 	50%{transform: translateX(-50px)}
 	75%{transform: translateX(50px)}
-	100%{transform: translate(0,0)}
+	100%{transform: translate(50px)}
 }
 
 
