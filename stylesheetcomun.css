@@ -385,7 +385,7 @@ aside p{
 	height: 30px;
 	position: relative;
 	z-index: 2;
-	animation: clicking 2s infinite linear;
+	animation: clicking 4s infinite linear;
 }
 @keyframes clicking{
 	25%{transform: translateX(30px)}
