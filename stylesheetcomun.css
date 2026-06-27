@@ -388,8 +388,12 @@ aside p{
 	animation: clicking 4s infinite linear;
 }
 @keyframes clicking{
-	from{translate:0}
-	to{translate:150px}
+	0%{translateX(0)}
+	20%{translateX(30px)}
+	40%{translateX(0)}
+	60%{translateX(30px)}
+	80%{translateX(0)}
+	100%{translateX(30px)}
 }
 
 
