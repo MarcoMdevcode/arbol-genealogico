@@ -389,11 +389,10 @@ aside p{
 }
 @keyframes clicking{
 	0%{transform:translateX(0)}
-	20%{transform:translateX(30px)}
-	40%{transform:translateX(0)}
-	60%{transform:translateX(30px)}
-	80%{transform:translateX(0)}
-	100%{transform:translateX(30px)}
+	25%{transform:translateX(30px)}
+	50%{transform:translateX(60px)}
+	75%{transform:translateX(90px)}
+	100%{transform:translateX(0)}
 }
 
 
