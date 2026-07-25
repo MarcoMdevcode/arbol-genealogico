@@ -44,9 +44,6 @@ section {
 	margin-left: 2%;
 	padding: 1%;
 }
-.carrousel1{
-	
-}
 h1{
 	color: white;
 	padding-top: 5px;
@@ -294,6 +291,7 @@ aside p{
 }
 .carrousel1-slide img{
 	width: Auto;
+	height: Auto;
 	flex-shrink: 0;
 }
 .carrousel2{
@@ -320,6 +318,7 @@ aside p{
 }
 .carrousel2-slide img{
 	width: Auto;
+	height: Auto;
 	flex-shrink: 0;
 }
 .carrousel3{
@@ -346,6 +345,7 @@ aside p{
 }
 .carrousel3-slide img{
 	width: Auto;
+	height: Auto;
 	flex-shrink: 0;
 }
 .pcopy{
